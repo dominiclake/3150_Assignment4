@@ -5,7 +5,7 @@
 </head>
 
 <body>
-    <button id="quoteButton:">Click to get a random quote</button>
+    <button id="quoteButton" onclick="showQuote()">Click to get a random quote</button>
 
     <script>
         const quotes = [
@@ -32,6 +32,5 @@
         }
 
         const button = document.getElementById('quoteButton');
-        button.addEventListener('click', showQuote);
     </script>
 </body>
